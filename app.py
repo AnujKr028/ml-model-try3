@@ -12,7 +12,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Load the model, graph, and label encoder
 model = joblib.load("model.pkl")
-graph = joblib.load("graph.pkl")
+# graph = joblib.load("graph.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 
 # Load the scaler
